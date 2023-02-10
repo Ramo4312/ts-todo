@@ -1,0 +1,31 @@
+.basket-contaoiner {
+	height: 92vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.basket-block {
+	padding: 30px 90px;
+	border-radius: 20px;
+	width: 700px;
+	background: rgb(221, 221, 221);
+}
+
+.basket-block > h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.basket-card-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-y: scroll;
+	row-gap: 20px;
+	height: 60vh;
+	margin-bottom: 30px;
+	padding: 40px 0;
+	width: 100%;
+}
