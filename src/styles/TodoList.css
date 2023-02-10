@@ -13,3 +13,9 @@
 .todos-list > h2 {
 	margin-bottom: 25px;
 }
+
+.nothing-title {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	color: rgb(62, 62, 62);
+}

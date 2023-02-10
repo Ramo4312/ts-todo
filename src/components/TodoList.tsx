@@ -12,7 +12,11 @@ export default function PersonList<T>(props: ListProps<T>) {
 				padding: '20px 30px',
 			}}
 		>
-			{props.items.map(props.renderItem)}
+			{props.items.length !== 0 ? (
+				props.items.map(props.renderItem)
+			) : (
+				<h2 className='nothing-title'>There's nothing here</h2>
+			)}
 		</div>
 	)
 }

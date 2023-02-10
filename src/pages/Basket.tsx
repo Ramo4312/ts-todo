@@ -53,7 +53,7 @@ const Basket: FC = () => {
 							</div>
 						))
 					) : (
-						<h2>There's nothing here</h2>
+						<h2 className='nothing-title'>There's nothing here</h2>
 					)}
 				</div>
 				<div style={{ width: '100%', display: 'flex', justifyContent: 'end' }}>
