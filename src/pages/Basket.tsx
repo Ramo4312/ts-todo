@@ -19,7 +19,7 @@ const Basket: FC = () => {
 			<div className='basket-block'>
 				<h2>Trash</h2>
 				<div className='basket-card-block'>
-					{trash ? (
+					{trash.length !== 0 ? (
 						trash.map((item: ITodo) => (
 							<div className='todo-card' key={item.id}>
 								<CardContent>

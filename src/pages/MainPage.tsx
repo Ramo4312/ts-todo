@@ -21,6 +21,8 @@ const MainPage = () => {
 	return (
 		<div
 			style={{
+				height: '91.9vh',
+				position: 'fixed',
 				width: '100%',
 				padding: '50px 100px',
 				display: 'flex',
